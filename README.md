@@ -15,7 +15,7 @@
 - **Backend**: Express + Node.js
 - **AI Layer**: LangChain + Gemini API
 - **Database**: LangDB
-- **VoIP**: Twilio (for real calls)
+- **VoIP**: Twilio (for real calls), Coqui TTS - voice training
 
 ## Project Structure
 ```
