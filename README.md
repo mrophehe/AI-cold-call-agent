@@ -1,4 +1,4 @@
-# AI Cold Calling Agent
+# AI Cold Calling Agent (LangDB AI Buildathon)
 
 🚀 An AI-powered cold calling agent using **Express, React (TypeScript), Node.js, LangChain (Gemini API), and LangDB** to automate sales and customer interactions.
 
@@ -63,18 +63,12 @@ npm start
 2. Start the frontend app.
 3. Use the dashboard to monitor AI calls in real-time.
 
-## API Endpoints
-- `POST /api/call/start` → Start a new AI call
-- `GET /api/call/:id` → Retrieve call details & transcript
-- `POST /api/call/analyze` → Perform sentiment analysis
 
 ## Future Enhancements
 - 🔹 Multi-language support
 - 🔹 More AI-driven insights
 - 🔹 CRM integration
 
-## Contributing
-Pull requests are welcome! Feel free to open an issue for feature requests or bug reports.
 
 ## License
 MIT License
