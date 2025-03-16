@@ -4,7 +4,7 @@
 
 ## Features
 ✅ AI-powered conversations using **LangChain + Gemini API**  
-✅ Call transcript storage & retrieval using **LangDB**  
+✅ Call transcript storage & retrieval using **a dedicated database**  
 ✅ Real-time call monitoring with **React + TypeScript UI**  
 ✅ Sentiment analysis & lead classification  
 ✅ Twilio integration for voice calls  
@@ -14,7 +14,8 @@
 - **Frontend**: React + TypeScript
 - **Backend**: Express + Node.js
 - **AI Layer**: LangChain + Gemini API
-- **Database**: LangDB
+- **AI Gateway**: LangDB (for enhanced AI interactions)
+- **Database**: MongoDB / PostgreSQL (for call transcript storage)
 - **VoIP**: Twilio (for real calls), Coqui TTS - voice training
 
 ## Project Structure
@@ -40,7 +41,6 @@ Config & Environment Files
 tailwind.config.js: Tailwind CSS setup.
 tsconfig.json: TypeScript configuration.
 eslint.config.js: Ensures clean coding standards.
-
 ```
 
 ## Installation
@@ -63,13 +63,8 @@ npm start
 2. Start the frontend app.
 3. Use the dashboard to monitor AI calls in real-time.
 
-
 ## Future Enhancements
 - 🔹 Multi-language support
 - 🔹 More AI-driven insights
 - 🔹 CRM integration
-
-
-## License
-MIT License
 
